@@ -6,7 +6,8 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { SeamlessHeroVideo } from "@/components/seamless-hero-video";
-import { clients, differentiators, practiceAreas } from "@/lib/content";
+import { ClientLogoCarousel } from "@/components/client-logo-carousel";
+import { differentiators, practiceAreas } from "@/lib/content";
 import { whatsappUrl } from "@/lib/contact";
 import { ContactBand, CtaLink, Reveal, SectionHeader } from "@/components/ui";
 
@@ -362,18 +363,9 @@ export function Home() {
             />
             <CtaLink href="/clientes">Ver clientes</CtaLink>
           </div>
-          <div className="grid gap-px overflow-hidden border border-[#071a38]/10 sm:grid-cols-2 lg:grid-cols-6">
-            {clients.map((client, index) => (
-              <Reveal key={client} delay={index * 0.025}>
-                <motion.div
-                  whileHover={{ y: -3 }}
-                  className="flex min-h-24 items-center justify-center bg-white px-4 text-center text-sm font-semibold text-[#071a38]"
-                >
-                  {client}
-                </motion.div>
-              </Reveal>
-            ))}
-          </div>
+          <Reveal delay={0.05}>
+            <ClientLogoCarousel />
+          </Reveal>
         </div>
       </section>
 

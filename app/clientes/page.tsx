@@ -1,5 +1,5 @@
 import { ContactBand, PageIntro, Reveal, SectionHeader } from "@/components/ui";
-import { clients } from "@/lib/content";
+import { ClientLogoCarousel } from "@/components/client-logo-carousel";
 
 export const metadata = {
   title: "Clientes | Barba & Cia Abogados",
@@ -20,17 +20,9 @@ export default function ClientesPage() {
             eyebrow="Organizaciones"
             title="Relaciones que valoran precision, criterio y respuesta."
           />
-          <div className="grid gap-px overflow-hidden border border-[#071a38]/10 sm:grid-cols-2 lg:grid-cols-3">
-            {clients.map((client, index) => (
-              <Reveal key={client} delay={index * 0.04}>
-                <div className="group flex min-h-24 items-center justify-center bg-white px-5 text-center transition hover:bg-[#071a38]">
-                  <span className="text-sm font-semibold text-[#071a38] transition group-hover:text-white">
-                    {client}
-                  </span>
-                </div>
-              </Reveal>
-            ))}
-          </div>
+          <Reveal delay={0.05}>
+            <ClientLogoCarousel />
+          </Reveal>
         </div>
       </section>
       <ContactBand />

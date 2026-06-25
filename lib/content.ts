@@ -153,14 +153,42 @@ export const differentiators = [
   },
 ];
 
-export const clients = [
-  "AmCham",
-  "Puerto Varas",
-  "Green Vision",
-  "Clinica Dental Implenet",
-  "BeatSelf",
-  "Atacama Ltda.",
+export const clientLogos = [
+  {
+    name: "Puerto Varas",
+    image: "/images/clients/puerto-varas.png",
+  },
+  {
+    name: "SEI Propiedad Intelectual",
+    image: "/images/clients/sei.png",
+  },
+  {
+    name: "Doña Ema",
+    image: "/images/clients/dona-ema.png",
+  },
+  {
+    name: "Distribuidora Dicamm",
+    image: "/images/clients/dicamm.png",
+  },
+  {
+    name: "Atacama Ltda.",
+    image: "/images/clients/atacama.png",
+  },
+  {
+    name: "Beatself",
+    image: "/images/clients/beatself.png",
+  },
+  {
+    name: "Clinicas Dentales Implanet",
+    image: "/images/clients/implanet.png",
+  },
+  {
+    name: "Green Vision",
+    image: "/images/clients/green-vision.png",
+  },
 ];
+
+export const clients = clientLogos.map((client) => client.name);
 
 export const values = [
   "Integridad",
