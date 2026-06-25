@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+:root {
+  --apple-font: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+    "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --navy: #002147;
+  --navy-2: #06162e;
+  --gold: #d4af37;
+  --ivory: #f8f7f2;
+  --ink: #20242b;
+  --muted: #71717a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--apple-font) !important;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(248, 247, 242, 0.94)),
+    var(--ivory);
+  color: var(--ink);
+  font-family: var(--apple-font) !important;
+  font-feature-settings: "liga" 1, "kern" 1;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.32);
+}
+
+.font-display {
+  font-family: var(--apple-font) !important;
+  font-weight: 600;
+  letter-spacing: 0 !important;
+}
+
+.gold-rule {
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.noise {
+  position: relative;
+}
+
+.noise::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.13;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.42) 0.5px, transparent 0.5px);
+  background-size: 8px 8px;
+  mix-blend-mode: overlay;
+}
+
+.luxury-surface {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.04)),
+    rgba(12, 29, 54, 0.58);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.14),
+    0 32px 80px rgba(0, 0, 0, 0.22);
+}
+
+.fine-grid {
+  background-image:
+    linear-gradient(rgba(212, 175, 55, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(212, 175, 55, 0.08) 1px, transparent 1px);
+  background-size: 72px 72px;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+.footer-gradient-line {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(212, 175, 55, 0.15),
+    rgba(212, 175, 55, 0.95),
+    rgba(255, 255, 255, 0.55),
+    rgba(212, 175, 55, 0.95),
+    rgba(212, 175, 55, 0.15),
+    transparent
+  );
+  background-size: 220% 100%;
+  animation: footer-line-flow 7s ease-in-out infinite;
+}
+
+.footer-atmosphere {
+  background:
+    linear-gradient(118deg, #031020 0%, #071b32 42%, #10252d 68%, #08172a 100%);
+}
+
+.footer-light-sweep {
+  background:
+    linear-gradient(
+      112deg,
+      transparent 12%,
+      rgba(15, 105, 112, 0.08) 38%,
+      rgba(212, 175, 55, 0.08) 51%,
+      rgba(255, 255, 255, 0.035) 58%,
+      transparent 76%
+    );
+  background-size: 180% 100%;
+  animation: footer-atmosphere-flow 14s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+.elegant-card-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.elegant-card-shine::after {
+  background: linear-gradient(
+    105deg,
+    transparent 0%,
+    rgba(212, 175, 55, 0.08) 42%,
+    rgba(255, 255, 255, 0.22) 50%,
+    rgba(212, 175, 55, 0.08) 58%,
+    transparent 100%
+  );
+  content: "";
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transform: translateX(-55%);
+  transition: opacity 300ms ease;
+}
+
+.elegant-card-shine:hover::after {
+  animation: refined-shine 950ms ease forwards;
+  opacity: 1;
+}
+
+@keyframes footer-line-flow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes footer-atmosphere-flow {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes refined-shine {
+  from {
+    transform: translateX(-70%);
+  }
+  to {
+    transform: translateX(70%);
+  }
+}
