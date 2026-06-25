@@ -4,10 +4,7 @@ import { FormEvent, useState } from "react";
 import { ArrowUpRight, Check, Mail, MapPin, Phone } from "lucide-react";
 import { whatsappUrl } from "@/lib/contact";
 
-const matters = ["Laboral", "Corporativo", "Litigios", "Compliance", "Otro"];
-
 export function ContactExperience() {
-  const [matter, setMatter] = useState("Laboral");
   const [sent, setSent] = useState(false);
 
   function submit(event: FormEvent<HTMLFormElement>) {
@@ -72,26 +69,6 @@ export function ContactExperience() {
                 </div>
                 <span className="text-[0.68rem] text-[#071a38]/38">01 / 01</span>
               </div>
-
-              <fieldset className="mt-6">
-                <legend className="text-[0.72rem] font-semibold text-[#071a38]">Area del asunto</legend>
-                <div className="mt-3 flex flex-wrap gap-2">
-                  {matters.map((item) => (
-                    <button
-                      key={item}
-                      type="button"
-                      onClick={() => setMatter(item)}
-                      className={`rounded-full border px-3 py-1.5 text-[0.68rem] transition ${
-                        matter === item
-                          ? "border-[#071a38] bg-[#071a38] text-white"
-                          : "border-[#071a38]/14 text-[#58606d] hover:border-[#9b7a24]"
-                      }`}
-                    >
-                      {item}
-                    </button>
-                  ))}
-                </div>
-              </fieldset>
 
               <div className="mt-7 grid gap-x-6 gap-y-5 sm:grid-cols-2">
                 <Field label="Nombre completo" name="name" />
