@@ -186,6 +186,14 @@ export const clientLogos = [
     name: "Green Vision",
     image: "/images/clients/green-vision.png",
   },
+  {
+    name: "Dr. Feelgood",
+    image: "/images/clients/dr-feelgood.png",
+  },
+  {
+    name: "GEIMSER",
+    image: "/images/clients/geimser.png",
+  },
 ];
 
 export const clients = clientLogos.map((client) => client.name);
