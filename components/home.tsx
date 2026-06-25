@@ -268,12 +268,12 @@ export function Home() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-[#071421] px-5 py-12 text-white sm:px-8 lg:py-14">
+      <section className="relative overflow-hidden bg-[#123653] px-5 py-12 text-white sm:px-8 lg:py-14">
         <AnimatePresence mode="wait">
           <motion.div
             key={activeMethod}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 0.24 }}
+            animate={{ opacity: 0.3 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.65 }}
             className="absolute inset-y-0 right-0 w-full lg:w-[58%]"
@@ -287,8 +287,8 @@ export function Home() {
             />
           </motion.div>
         </AnimatePresence>
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,#071421_0%,#071421_42%,rgba(7,20,33,0.82)_66%,rgba(7,20,33,0.5)_100%)]" />
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.025),transparent_45%,rgba(0,0,0,0.2))]" />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,#123653_0%,rgba(18,54,83,0.96)_40%,rgba(18,54,83,0.72)_67%,rgba(18,54,83,0.42)_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.08),transparent_48%,rgba(2,18,34,0.1))]" />
 
         <div className="relative mx-auto grid max-w-7xl gap-14 lg:grid-cols-[0.43fr_0.57fr] lg:items-center lg:gap-20">
           <div>
