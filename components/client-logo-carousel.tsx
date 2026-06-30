@@ -9,7 +9,7 @@ export function ClientLogoCarousel() {
           <div
             key={`${client.name}-${index}`}
             aria-hidden={index >= clientLogos.length}
-            className="flex h-28 w-[220px] shrink-0 items-center justify-center px-7 sm:h-32 sm:w-[260px]"
+            className="flex h-32 w-[220px] shrink-0 flex-col items-center justify-center gap-2 px-7 sm:h-36 sm:w-[260px]"
           >
             <Image
               src={client.image}
@@ -19,6 +19,11 @@ export function ClientLogoCarousel() {
               sizes="(max-width: 640px) 220px, 260px"
               className="max-h-20 w-auto max-w-full object-contain sm:max-h-24"
             />
+            {"caption" in client ? (
+              <span className="max-w-[190px] text-center text-[0.62rem] font-semibold uppercase leading-tight tracking-[0.08em] text-[#071a38]/68 sm:max-w-[220px]">
+                {client.caption}
+              </span>
+            ) : null}
           </div>
         ))}
       </div>

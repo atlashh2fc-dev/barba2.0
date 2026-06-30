@@ -125,14 +125,14 @@ export function Home() {
           <h2 className="text-center text-[1.35rem] font-semibold uppercase tracking-[0.08em] text-[#071a38]">
             Areas de practica
           </h2>
-          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {featuredAreas.map((area, index) => (
               <Reveal key={area.title} delay={index * 0.04}>
                 <a
                   href={area.href}
                   className="elegant-card-shine group block overflow-hidden bg-[#071a38] shadow-[0_18px_50px_rgba(7,26,56,0.12)]"
                 >
-                  <div className="relative aspect-[1.35] overflow-hidden">
+                  <div className="relative aspect-[1.18] overflow-hidden xl:aspect-[0.9]">
                     <Image
                       src={area.image}
                       alt={area.title}

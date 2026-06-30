@@ -155,24 +155,8 @@ export const differentiators = [
 
 export const clientLogos = [
   {
-    name: "Puerto Varas",
-    image: "/images/clients/puerto-varas.png",
-  },
-  {
-    name: "SEI Propiedad Intelectual",
-    image: "/images/clients/sei.png",
-  },
-  {
-    name: "Doña Ema",
-    image: "/images/clients/dona-ema.png",
-  },
-  {
     name: "Distribuidora Dicamm",
     image: "/images/clients/dicamm.png",
-  },
-  {
-    name: "Atacama Ltda.",
-    image: "/images/clients/atacama.png",
   },
   {
     name: "Beatself",
@@ -193,6 +177,19 @@ export const clientLogos = [
   {
     name: "GEIMSER",
     image: "/images/clients/geimser.png",
+  },
+  {
+    name: "Ingenieria & Construcciones Reyes",
+    image: "/images/clients/reyes.jpeg",
+  },
+  {
+    name: "Industel",
+    image: "/images/clients/industel.jpeg",
+  },
+  {
+    name: "AmCham Chile",
+    image: "/images/clients/amcham.png",
+    caption: "Camara Chilena Norteamericana de Comercio",
   },
 ];
 
