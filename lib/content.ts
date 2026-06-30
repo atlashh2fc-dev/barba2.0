@@ -180,11 +180,11 @@ export const clientLogos = [
   },
   {
     name: "Ingenieria & Construcciones Reyes",
-    image: "/images/clients/reyes.jpeg",
+    image: "/images/clients/reyes.png",
   },
   {
     name: "Industel",
-    image: "/images/clients/industel.jpeg",
+    image: "/images/clients/industel.png",
   },
   {
     name: "AmCham Chile",
