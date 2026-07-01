@@ -3,9 +3,9 @@ import { ContactBand, Reveal } from "@/components/ui";
 import { team, values } from "@/lib/content";
 
 export const metadata = {
-  title: "Firma | Barba & Cia Abogados",
+  title: "Firma | Barba & Cía. Abogados",
   description:
-    "Historia, filosofia, mision y valores de Barba & Cia Abogados.",
+    "Historia, filosofía, misión y valores de Barba & Cía. Abogados.",
 };
 
 export default function FirmaPage() {
@@ -34,21 +34,21 @@ export default function FirmaPage() {
               </h1>
             </div>
             <p className="max-w-2xl text-[0.94rem] leading-7 text-white/68 lg:justify-self-end">
-              Barba Gonella & Cia asesora a empresas con intervencion directa,
-              estrategia juridica y seguimiento cercano en asuntos laborales,
+              Barba Gonella & Cía. asesora a empresas con intervención directa,
+              estrategia jurídica y seguimiento cercano en asuntos laborales,
               corporativos y litigiosos.
             </p>
           </div>
 
           <div className="border-t border-white/16 py-5">
             <p className="text-[0.58rem] font-semibold uppercase tracking-[0.2em] text-[#d4af37]">
-              Metodo
+              Método
             </p>
             <div className="mt-4 grid gap-4 lg:grid-cols-3">
               {[
-                ["01", "Diagnostico", "Riesgo, evidencia y urgencia del asunto."],
-                ["02", "Estrategia", "Curso de accion conectado al negocio."],
-                ["03", "Ejecucion", "Defensa, negociacion y seguimiento."],
+                ["01", "Diagnóstico", "Riesgo, evidencia y urgencia del asunto."],
+                ["02", "Estrategia", "Curso de acción conectado al negocio."],
+                ["03", "Ejecución", "Defensa, negociación y seguimiento."],
               ].map(([number, title, body]) => (
                 <Reveal key={number}>
                   <div className="grid grid-cols-[34px_1fr] gap-x-4 border-t border-white/10 pt-4 lg:border-t-0 lg:border-r lg:pr-6 lg:last:border-r-0">
@@ -83,15 +83,15 @@ export default function FirmaPage() {
           <div className="grid gap-8 border-b border-[#071a38]/16 pb-7 lg:grid-cols-[0.38fr_0.62fr]">
             <div>
               <p className="text-[0.62rem] font-semibold uppercase tracking-[0.22em] text-[#9b7a24]">
-                Direccion
+                Dirección
               </p>
               <h2 className="mt-3 font-display text-[1.35rem] leading-tight text-[#071a38]">
                 Un equipo compacto, senior y directamente involucrado.
               </h2>
             </div>
             <p className="max-w-2xl text-[0.9rem] leading-6 text-[#58606d] lg:justify-self-end">
-              La estructura del estudio permite mantener una relacion cercana con el
-              cliente y una ejecucion juridica consistente durante todo el asunto.
+              La estructura del estudio permite mantener una relación cercana con el
+              cliente y una ejecución jurídica consistente durante todo el asunto.
             </p>
           </div>
 

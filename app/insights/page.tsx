@@ -2,9 +2,9 @@ import { ContactBand, PageIntro, Reveal, SectionHeader } from "@/components/ui";
 import { insights } from "@/lib/content";
 
 export const metadata = {
-  title: "Insights | Barba & Cia Abogados",
+  title: "Insights | Barba & Cía. Abogados",
   description:
-    "Analisis legal para empresas: laboral, compliance, corporativo y litigios.",
+    "Análisis legal para empresas: laboral, compliance, corporativo y litigios.",
 };
 
 export default function InsightsPage() {
@@ -12,8 +12,8 @@ export default function InsightsPage() {
     <>
       <PageIntro
         eyebrow="Insights"
-        title="Analisis legal para decisiones empresariales."
-        body="Analisis sobre riesgos legales, cambios regulatorios y decisiones empresariales que requieren una mirada especializada."
+        title="Análisis legal para decisiones empresariales."
+        body="Análisis sobre riesgos legales, cambios regulatorios y decisiones empresariales que requieren una mirada especializada."
       />
       <section className="px-5 py-12 sm:px-8">
         <div className="mx-auto max-w-7xl">

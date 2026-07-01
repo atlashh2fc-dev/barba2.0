@@ -126,7 +126,7 @@ export function PracticeGallery({ areas }: { areas: Area[] }) {
                     href="/contacto"
                     className="mt-6 inline-flex items-center gap-3 rounded-full border border-[#d4af37]/75 bg-[#d4af37] px-5 py-3 text-[0.68rem] font-semibold uppercase tracking-[0.13em] text-[#071a38] transition hover:bg-white"
                   >
-                    Solicitar asesoria
+                    Solicitar asesoría
                     <ArrowUpRight size={14} />
                   </Link>
                 </div>

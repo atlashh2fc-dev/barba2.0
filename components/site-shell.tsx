@@ -21,7 +21,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           <Link href="/" className="group flex items-center gap-3" onClick={() => setOpen(false)}>
             <Image
               src="/images/current/barba-logo.png"
-              alt="Barba Gonella & Cia Abogados"
+              alt="Barba Gonella & Cía. Abogados"
               width={132}
               height={55}
               className="h-11 w-auto object-contain"
@@ -29,7 +29,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
             />
           </Link>
 
-          <nav className="hidden items-center gap-1 lg:flex" aria-label="Navegacion principal">
+          <nav className="hidden items-center gap-1 lg:flex" aria-label="Navegación principal">
             {navItems.map((item) => {
               const active =
                 item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
@@ -56,13 +56,13 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
             rel="noreferrer"
             className="hidden items-center gap-2 border border-[#071a38]/16 px-3.5 py-2 text-[0.76rem] font-semibold text-[#071a38] transition hover:border-[#d4af37] hover:bg-[#071a38] hover:text-white lg:flex"
           >
-            Agenda una reunion
+            Agenda una reunión
             <ArrowUpRight size={16} />
           </Link>
 
           <button
             type="button"
-            aria-label="Abrir menu"
+            aria-label="Abrir menú"
             onClick={() => setOpen(true)}
             className="flex h-8 w-8 items-center justify-center border border-[#071a38]/15 text-[#071a38] lg:hidden"
           >
@@ -78,10 +78,10 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           className="fixed inset-0 z-[60] bg-[#071a38] px-5 py-5 text-white lg:hidden"
         >
           <div className="flex items-center justify-between">
-            <span className="text-lg font-semibold">Barba & Cia</span>
+            <span className="text-lg font-semibold">Barba & Cía.</span>
             <button
               type="button"
-              aria-label="Cerrar menu"
+              aria-label="Cerrar menú"
               onClick={() => setOpen(false)}
               className="flex h-10 w-10 items-center justify-center border border-white/18"
             >
@@ -124,7 +124,7 @@ function Footer() {
               Defensa empresarial
             </p>
             <p className="mt-3 max-w-2xl text-[0.95rem] leading-6 text-white/76">
-              Criterio juridico para decisiones empresariales sensibles.
+              Criterio jurídico para decisiones empresariales sensibles.
             </p>
           </div>
           <Link
@@ -144,26 +144,26 @@ function Footer() {
           <div className="col-span-2 max-w-md lg:col-span-1">
             <Image
               src="/images/current/barba-logo.png"
-              alt="Barba Gonella & Cia Abogados"
+              alt="Barba Gonella & Cía. Abogados"
               width={150}
               height={64}
               className="h-10 w-auto brightness-0 invert opacity-75"
             />
             <p className="mt-4 max-w-sm text-[0.78rem] leading-5 text-white/56 sm:text-[0.82rem] sm:leading-6">
-              Asesoria legal estrategica para empresas, con presencia directa,
+              Asesoría legal estratégica para empresas, con presencia directa,
               lectura de negocio y defensa rigurosa.
             </p>
             <p className="mt-3 text-[0.55rem] uppercase leading-5 tracking-[0.14em] text-white/38 sm:mt-4 sm:text-[0.58rem]">
               Santiago <span className="mx-2 text-[#d9b94a]/65">·</span>
               Antofagasta <span className="mx-2 text-[#d9b94a]/65">·</span>
               Rancagua <span className="mx-2 text-[#d9b94a]/65">·</span>
-              Vina del Mar
+              Viña del Mar
             </p>
           </div>
 
           <nav className="grid content-start gap-2 text-[0.78rem] text-white/56 sm:text-[0.82rem]">
             <p className="mb-1 text-[0.58rem] font-semibold uppercase tracking-[0.18em] text-[#d9b94a]">
-              Navegacion
+              Navegación
             </p>
             {navItems.map((item) => (
               <Link
@@ -210,7 +210,7 @@ function Footer() {
         </div>
 
         <div className="flex flex-col gap-3 border-t border-white/9 pt-5 text-[0.58rem] uppercase tracking-[0.1em] text-white/30 sm:flex-row sm:items-center sm:justify-between">
-          <span>© 2026 Barba & Cia Abogados.</span>
+          <span>© 2026 Barba & Cía. Abogados.</span>
           <span>Confidencialidad · estrategia · defensa</span>
         </div>
       </div>

@@ -23,10 +23,10 @@ export function ContactExperience() {
               Contacto directo
             </p>
             <h2 className="mt-4 max-w-sm font-display text-[1.4rem] leading-tight">
-              Una primera conversacion confidencial y enfocada.
+              Una primera conversación confidencial y enfocada.
             </h2>
             <p className="mt-4 max-w-sm text-[0.84rem] leading-6 text-white/58">
-              Comparta los antecedentes esenciales. El equipo revisara el asunto y definira el siguiente paso.
+              Comparta los antecedentes esenciales. El equipo revisará el asunto y definirá el siguiente paso.
             </p>
 
             <div className="mt-9 grid gap-5 border-t border-white/14 pt-7 text-[0.82rem] text-white/68">
@@ -54,7 +54,7 @@ export function ContactExperience() {
               </span>
               <h2 className="mt-5 font-display text-[1.45rem]">Solicitud recibida</h2>
               <p className="mt-3 max-w-md text-sm leading-6 text-[#58606d]">
-                Gracias. El equipo revisara los antecedentes y respondera por el medio indicado.
+                Gracias. El equipo revisará los antecedentes y responderá por el medio indicado.
               </p>
               <button type="button" onClick={() => setSent(false)} className="mt-7 text-xs font-semibold uppercase tracking-[0.14em] text-[#9b7a24]">
                 Enviar otra consulta
@@ -74,7 +74,7 @@ export function ContactExperience() {
                 <Field label="Nombre completo" name="name" />
                 <Field label="Empresa" name="company" />
                 <Field label="Email corporativo" name="email" type="email" />
-                <Field label="Telefono" name="phone" type="tel" />
+                <Field label="Teléfono" name="phone" type="tel" />
               </div>
               <label className="mt-6 block">
                 <span className="text-[0.72rem] font-semibold text-[#071a38]">Antecedentes principales</span>
@@ -87,7 +87,7 @@ export function ContactExperience() {
               </label>
               <div className="mt-7 flex flex-col gap-4 border-t border-[#071a38]/10 pt-5 sm:flex-row sm:items-center sm:justify-between">
                 <p className="max-w-xs text-[0.68rem] leading-5 text-[#58606d]">
-                  La informacion sera tratada de forma confidencial.
+                  La información será tratada de forma confidencial.
                 </p>
                 <button className="inline-flex items-center justify-center gap-3 bg-[#071a38] px-5 py-3 text-[0.68rem] font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-[#9b7a24]">
                   Enviar solicitud <ArrowUpRight size={14} />

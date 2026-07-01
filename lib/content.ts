@@ -1,7 +1,7 @@
 export const navItems = [
   { label: "Inicio", href: "/" },
   { label: "Nuestro Equipo", href: "/firma" },
-  { label: "Areas De Practica", href: "/areas" },
+  { label: "Áreas de Práctica", href: "/areas" },
   { label: "Contacto", href: "/contacto" },
 ];
 
@@ -12,12 +12,12 @@ export const practiceAreas = [
     kicker: "Laboral",
     title: "Derecho Laboral para Empresas",
     image: "/images/practice/laboral.png",
-    subtitle: "Proteccion del capital humano y continuidad operacional.",
+    subtitle: "Protección del capital humano y continuidad operacional.",
     summary:
-      "Acompanamos decisiones laborales criticas con foco preventivo, documental y litigioso.",
+      "Acompañamos decisiones laborales críticas con foco preventivo, documental y litigioso.",
     points: [
-      "Gestion integral del ciclo laboral, desde contratacion hasta termino.",
-      "Auditorias, reglamentos, politicas internas y cumplimiento normativo.",
+      "Gestión integral del ciclo laboral, desde contratación hasta término.",
+      "Auditorías, reglamentos, políticas internas y cumplimiento normativo.",
       "Due diligence laboral para adquisiciones, fusiones y reestructuraciones.",
       "Defensa en juicios, mediaciones y negociaciones colectivas.",
     ],
@@ -26,29 +26,29 @@ export const practiceAreas = [
     slug: "derecho-corporativo",
     number: "02",
     kicker: "Corporativo",
-    title: "Asesoria Corporativa y Comercial",
+    title: "Asesoría Corporativa y Comercial",
     image: "/images/practice/corporativo.png",
-    subtitle: "Estructuras juridicas solidas para crecimiento y expansion.",
+    subtitle: "Estructuras jurídicas sólidas para crecimiento y expansión.",
     summary:
       "Ordenamos operaciones, contratos y decisiones societarias con criterio empresarial.",
     points: [
-      "Fusiones, adquisiciones, reorganizaciones y proteccion de activos.",
+      "Fusiones, adquisiciones, reorganizaciones y protección de activos.",
       "Insolvencia, reemprendimiento y continuidad empresarial.",
-      "Contratos comerciales complejos y negociaciones estrategicas.",
+      "Contratos comerciales complejos y negociaciones estratégicas.",
     ],
   },
   {
     slug: "derecho-civil",
     number: "03",
     kicker: "Civil",
-    title: "Proteccion Patrimonial y Asesoria Civil",
+    title: "Protección Patrimonial y Asesoría Civil",
     image: "/images/practice/civil.png",
-    subtitle: "Seguridad juridica para patrimonio y proyectos.",
+    subtitle: "Seguridad jurídica para patrimonio y proyectos.",
     summary:
-      "Disenamos soluciones civiles claras para prevenir conflictos y proteger activos.",
+      "Diseñamos soluciones civiles claras para prevenir conflictos y proteger activos.",
     points: [
       "Contratos, convenios y estructuras civiles a medida.",
-      "Derecho sucesorio, planificacion testamentaria y comunidades hereditarias.",
+      "Derecho sucesorio, planificación testamentaria y comunidades hereditarias.",
       "Soporte a fundaciones, corporaciones y organizaciones sin fines de lucro.",
       "Estrategias preventivas y litigiosas en disputas civiles.",
     ],
@@ -61,11 +61,11 @@ export const practiceAreas = [
     image: "/images/practice/litigios.png",
     subtitle: "Estrategias rigurosas para conflictos de alta exigencia.",
     summary:
-      "Convertimos informacion juridica y de negocio en estrategias judiciales accionables.",
+      "Convertimos información jurídica y de negocio en estrategias judiciales accionables.",
     points: [
-      "Diseno de estrategias judiciales innovadoras, realistas y probatorias.",
-      "Representacion ante tribunales civiles, laborales y penales.",
-      "Defensa de patrimonio, reputacion e intereses empresariales.",
+      "Diseño de estrategias judiciales innovadoras, realistas y probatorias.",
+      "Representación ante tribunales civiles, laborales y penales.",
+      "Defensa de patrimonio, reputación e intereses empresariales.",
     ],
   },
   {
@@ -74,28 +74,28 @@ export const practiceAreas = [
     kicker: "Penal corporativo",
     title: "Derecho Penal Empresarial",
     image: "/images/practice/penal.png",
-    subtitle: "Prevencion y defensa frente a riesgos penales corporativos.",
+    subtitle: "Prevención y defensa frente a riesgos penales corporativos.",
     summary:
-      "Protegemos a empresas y ejecutivos ante delitos economicos y responsabilidad penal.",
+      "Protegemos a empresas y ejecutivos ante delitos económicos y responsabilidad penal.",
     points: [
-      "Responsabilidad penal de la persona juridica y delitos economicos.",
-      "Acompanamiento a empresas, directorios y ejecutivos.",
-      "Proteccion reputacional y respuesta ante contingencias.",
+      "Responsabilidad penal de la persona jurídica y delitos económicos.",
+      "Acompañamiento a empresas, directorios y ejecutivos.",
+      "Protección reputacional y respuesta ante contingencias.",
     ],
   },
   {
     slug: "derecho-tributario",
     number: "06",
     kicker: "Tributario",
-    title: "Asesoria Tributaria Estrategica",
+    title: "Asesoría Tributaria Estratégica",
     image: "/images/practice/tributario.png",
-    subtitle: "Planificacion, cumplimiento y defensa fiscal.",
+    subtitle: "Planificación, cumplimiento y defensa fiscal.",
     summary:
       "Integramos criterio tributario en decisiones corporativas, litigiosas y operativas.",
     points: [
-      "Planificacion tributaria con enfoque de cumplimiento.",
+      "Planificación tributaria con enfoque de cumplimiento.",
       "Defensa ante fiscalizaciones y litigios tributarios.",
-      "Prevencion de contingencias en operaciones empresariales.",
+      "Prevención de contingencias en operaciones empresariales.",
     ],
   },
   {
@@ -104,28 +104,28 @@ export const practiceAreas = [
     kicker: "Compliance",
     title: "Programas de Compliance",
     image: "/images/practice/compliance.png",
-    subtitle: "Gobernanza, integridad y prevencion de delitos.",
+    subtitle: "Gobernanza, integridad y prevención de delitos.",
     summary:
-      "Implementamos modelos de cumplimiento que funcionan en la operacion diaria.",
+      "Implementamos modelos de cumplimiento que funcionan en la operación diaria.",
     points: [
-      "Modelos de prevencion, codigos de etica y politicas internas.",
-      "Capacitaciones, auditorias y monitoreo de cumplimiento.",
-      "Cultura organizacional alineada con estandares regulatorios.",
+      "Modelos de prevención, códigos de ética y políticas internas.",
+      "Capacitaciones, auditorías y monitoreo de cumplimiento.",
+      "Cultura organizacional alineada con estándares regulatorios.",
     ],
   },
   {
     slug: "asesoria-integral",
     number: "08",
     kicker: "Integral",
-    title: "Soluciones Juridicas, Contables y RRHH",
+    title: "Soluciones Jurídicas, Contables y RR. HH.",
     image: "/images/practice/integral.png",
-    subtitle: "Una vision 360 para la gestion de empresas.",
+    subtitle: "Una visión 360 para la gestión de empresas.",
     summary:
-      "Coordinamos las areas legal, contable y laboral para reducir friccion directiva.",
+      "Coordinamos las áreas legal, contable y laboral para reducir fricción directiva.",
     points: [
-      "Gestion legal, contable y de recursos humanos coordinada.",
-      "Optimizacion de procesos criticos y control de riesgos.",
-      "Acompanamiento continuo para equipos directivos.",
+      "Gestión legal, contable y de recursos humanos coordinada.",
+      "Optimización de procesos críticos y control de riesgos.",
+      "Acompañamiento continuo para equipos directivos.",
     ],
   },
 ];
@@ -134,22 +134,22 @@ export const differentiators = [
   {
     number: "01",
     title: "Criterio senior",
-    body: "Intervencion directa de profesionales senior en decisiones sensibles y asuntos de alto impacto.",
+    body: "Intervención directa de profesionales senior en decisiones sensibles y asuntos de alto impacto.",
   },
   {
     number: "02",
     title: "Lectura empresarial",
-    body: "El analisis legal se conecta con continuidad operacional, reputacion y velocidad de decision.",
+    body: "El análisis legal se conecta con continuidad operacional, reputación y velocidad de decisión.",
   },
   {
     number: "03",
-    title: "Prevencion documentada",
-    body: "Procesos, contratos y evidencia preparados para fortalecer la posicion de la empresa.",
+    title: "Prevención documentada",
+    body: "Procesos, contratos y evidencia preparados para fortalecer la posición de la empresa.",
   },
   {
     number: "04",
     title: "Defensa precisa",
-    body: "Litigios tratados como proyectos estrategicos: teoria del caso, prueba, riesgo y negociacion.",
+    body: "Litigios tratados como proyectos estratégicos: teoría del caso, prueba, riesgo y negociación.",
   },
 ];
 
@@ -163,7 +163,7 @@ export const clientLogos = [
     image: "/images/clients/beatself.png",
   },
   {
-    name: "Clinicas Dentales Implanet",
+    name: "Clínicas Dentales Implanet",
     image: "/images/clients/implanet.png",
   },
   {
@@ -179,7 +179,7 @@ export const clientLogos = [
     image: "/images/clients/geimser.png",
   },
   {
-    name: "Ingenieria & Construcciones Reyes",
+    name: "Ingeniería & Construcciones Reyes",
     image: "/images/clients/reyes.png",
   },
   {
@@ -189,7 +189,7 @@ export const clientLogos = [
   {
     name: "AmCham Chile",
     image: "/images/clients/amcham.png",
-    caption: "Camara Chilena Norteamericana de Comercio",
+    caption: "Cámara Chilena Norteamericana de Comercio",
   },
 ];
 
@@ -199,7 +199,7 @@ export const values = [
   "Integridad",
   "Excelencia",
   "Compromiso",
-  "Innovacion",
+  "Innovación",
   "Proximidad",
 ];
 
@@ -246,22 +246,22 @@ export const insights = [
   {
     slug: "auditorias-laborales",
     tag: "Laboral",
-    title: "Auditorias laborales como herramienta de continuidad operacional",
+    title: "Auditorías laborales como herramienta de continuidad operacional",
     excerpt:
-      "Una revision preventiva permite ordenar contratos, reglamentos, jornadas y evidencia antes de una fiscalizacion o litigio.",
+      "Una revisión preventiva permite ordenar contratos, reglamentos, jornadas y evidencia antes de una fiscalización o litigio.",
   },
   {
     slug: "delitos-economicos",
     tag: "Compliance",
-    title: "Preparar a la empresa ante estandares de delitos economicos",
+    title: "Preparar a la empresa ante estándares de delitos económicos",
     excerpt:
-      "Los modelos de prevencion deben salir del documento y entrar en decisiones, controles y capacitaciones verificables.",
+      "Los modelos de prevención deben salir del documento y entrar en decisiones, controles y capacitaciones verificables.",
   },
   {
     slug: "due-diligence",
     tag: "Corporativo",
     title: "Due diligence legal en adquisiciones y reorganizaciones",
     excerpt:
-      "La revision legal debe medir contingencias, impacto economico y capacidad real de integracion posterior.",
+      "La revisión legal debe medir contingencias, impacto económico y capacidad real de integración posterior.",
   },
 ];

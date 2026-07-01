@@ -197,20 +197,20 @@ export function ContactBand() {
               </p>
             </div>
             <h2 className="max-w-[620px] font-display text-[1.35rem] leading-[1.18] text-balance sm:text-[1.6rem]">
-              Conversemos sobre el riesgo legal que hoy necesita una decision.
+              Conversemos sobre el riesgo legal que hoy necesita una decisión.
             </h2>
             <p className="mt-5 max-w-xl text-sm leading-6 text-white/68">
-              Una primera conversacion confidencial para ordenar antecedentes, urgencia y curso de accion.
+              Una primera conversación confidencial para ordenar antecedentes, urgencia y curso de acción.
             </p>
           </div>
 
           <div className="flex flex-col items-start gap-5 lg:items-end">
             <div className="hidden items-center gap-5 border border-white/15 bg-[#071a38]/32 px-5 py-3 text-[0.62rem] uppercase tracking-[0.18em] text-white/62 backdrop-blur-xl sm:flex">
-              <span>Diagnostico</span>
+              <span>Diagnóstico</span>
               <span className="h-1 w-1 rounded-full bg-[#d4af37]" />
               <span>Estrategia</span>
               <span className="h-1 w-1 rounded-full bg-[#d4af37]" />
-              <span>Accion</span>
+              <span>Acción</span>
             </div>
             <a
               href={whatsappUrl}
@@ -218,7 +218,7 @@ export function ContactBand() {
               rel="noreferrer"
               className="group/button inline-flex items-center justify-center gap-3 border border-[#d4af37] bg-[#d4af37] px-5 py-3 text-[0.7rem] font-semibold uppercase tracking-[0.15em] text-[#071a38] transition duration-300 hover:bg-white"
             >
-              Agendar reunion
+              Agendar reunión
               <ArrowRight
                 size={15}
                 className="transition-transform duration-300 group-hover/button:translate-x-1"

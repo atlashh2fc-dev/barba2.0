@@ -17,7 +17,7 @@ export async function generateMetadata({
   const area = practiceAreas.find((item) => item.slug === slug);
   if (!area) return {};
   return {
-    title: `${area.title} | Barba & Cia Abogados`,
+    title: `${area.title} | Barba & Cía. Abogados`,
     description: area.summary,
   };
 }
@@ -42,7 +42,7 @@ export default async function AreaDetailPage({
               className="inline-flex items-center gap-2 text-sm font-semibold text-[#071a38] transition hover:text-[#9b7a24]"
             >
               <ArrowLeft size={16} />
-              Volver a areas
+              Volver a áreas
             </Link>
             <div className="mt-10 border-l border-[#d4af37] pl-5">
               <p className="text-xl font-semibold text-[#d4af37]">{area.number}</p>
@@ -52,8 +52,8 @@ export default async function AreaDetailPage({
           <div>
             <SectionHeader
               eyebrow="Alcance"
-              title="Como intervenimos"
-              body="El foco esta en ordenar informacion, reducir incertidumbre y sostener la decision con evidencia juridica y operacional."
+              title="Cómo intervenimos"
+              body="El foco está en ordenar información, reducir incertidumbre y sostener la decisión con evidencia jurídica y operacional."
             />
             <div className="grid gap-4">
               {area.points.map((point, index) => (

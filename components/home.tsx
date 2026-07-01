@@ -14,17 +14,17 @@ import { ContactBand, CtaLink, Reveal, SectionHeader } from "@/components/ui";
 const priorityServices = [
   {
     title: "Derecho laboral para empresas",
-    body: "Asesoria preventiva, auditorias, defensa en juicios laborales y acompanamiento en decisiones vinculadas al capital humano.",
+    body: "Asesoría preventiva, auditorías, defensa en juicios laborales y acompañamiento en decisiones vinculadas al capital humano.",
     href: "/areas/derecho-laboral",
   },
   {
-    title: "Asesoria juridica, contable y RRHH",
-    body: "Un servicio integral para empresas que necesitan coordinar cumplimiento legal, gestion contable y recursos humanos en una sola estrategia.",
+    title: "Asesoría jurídica, contable y RR. HH.",
+    body: "Un servicio integral para empresas que necesitan coordinar cumplimiento legal, gestión contable y recursos humanos en una sola estrategia.",
     href: "/areas/asesoria-integral",
   },
   {
     title: "Compliance para empresas",
-    body: "Diseno e implementacion de modelos de cumplimiento, prevencion de delitos, codigos de etica y politicas internas.",
+    body: "Diseño e implementación de modelos de cumplimiento, prevención de delitos, códigos de ética y políticas internas.",
     href: "/areas/compliance",
   },
 ];
@@ -54,7 +54,7 @@ export function Home() {
             transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
             className="max-w-2xl"
           >
-            <p className="text-lg font-medium text-white/92">Barba Gonella & Cia</p>
+            <p className="text-lg font-medium text-white/92">Barba Gonella & Cía.</p>
             <h1 className="mt-4 max-w-xl text-[1.7rem] font-semibold uppercase leading-[1.16] tracking-[0.08em] text-white sm:text-[2rem] lg:text-[2.3rem]">
               Estudio de abogados boutique
             </h1>
@@ -70,7 +70,7 @@ export function Home() {
                 rel="noreferrer"
                 className="inline-flex rounded-full bg-[#8f8151] px-6 py-3 text-sm font-medium uppercase tracking-[0.04em] text-white transition hover:bg-[#74683f]"
               >
-                Agenda una reunion
+                Agenda una reunión
               </a>
             </div>
           </motion.div>
@@ -85,7 +85,7 @@ export function Home() {
                 Enfoque empresarial
               </p>
               <h2 className="mt-3 max-w-sm text-[1.35rem] font-semibold leading-tight text-[#071a38]">
-                Proteccion legal para empresas y equipos directivos.
+                Protección legal para empresas y equipos directivos.
               </h2>
               <p className="mt-4 text-sm leading-6 text-[#58606d]">
                 La propuesta se concentra en prevenir riesgos, defender a la
@@ -110,7 +110,7 @@ export function Home() {
                       {service.body}
                     </p>
                     <span className="mt-5 inline-flex text-xs font-semibold uppercase tracking-[0.08em] text-[#071a38]">
-                      Leer mas
+                      Leer más
                     </span>
                   </a>
                 </Reveal>
@@ -123,7 +123,7 @@ export function Home() {
       <section className="bg-white px-5 py-12 sm:px-8">
         <div className="mx-auto max-w-7xl">
           <h2 className="text-center text-[1.35rem] font-semibold uppercase tracking-[0.08em] text-[#071a38]">
-            Areas de practica
+            Áreas de práctica
           </h2>
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {featuredAreas.map((area, index) => (
@@ -145,7 +145,7 @@ export function Home() {
                         {area.title}
                       </h3>
                       <span className="mt-4 inline-flex text-sm font-medium uppercase tracking-[0.06em] text-white/82">
-                        Leer mas
+                        Leer más
                       </span>
                     </div>
                   </div>
@@ -200,13 +200,13 @@ export function Home() {
           <div>
             <p className="flex items-center gap-3 text-[0.66rem] font-semibold uppercase tracking-[0.24em] text-[#8f762a]">
               <span className="h-px w-8 bg-[#b89225]" />
-              Areas estrategicas
+              Áreas estratégicas
             </p>
             <h2 className="mt-5 max-w-xl font-display text-[1.5rem] leading-[1.15] text-[#071a38] sm:text-[1.75rem]">
-              Asesoria especializada para proteger operacion, patrimonio y continuidad.
+              Asesoría especializada para proteger operación, patrimonio y continuidad.
             </h2>
             <p className="mt-5 max-w-xl text-[0.95rem] leading-7 text-[#58606d]">
-              Equipos directivos acceden a una mirada juridica integrada, preparada para anticipar contingencias y conducir decisiones sensibles.
+              Equipos directivos acceden a una mirada jurídica integrada, preparada para anticipar contingencias y conducir decisiones sensibles.
             </p>
 
             <div className="mt-10 border-t border-[#071a38]/16">
@@ -262,7 +262,7 @@ export function Home() {
               href="/areas"
               className="mt-7 inline-flex items-center gap-3 text-[0.7rem] font-semibold uppercase tracking-[0.16em] text-[#071a38]"
             >
-              Ver todas las areas
+              Ver todas las áreas
               <span className="h-px w-10 bg-[#b89225]" />
             </Link>
           </div>
@@ -298,10 +298,10 @@ export function Home() {
               Modelo de trabajo
             </p>
             <h2 className="mt-5 max-w-lg font-display text-[1.55rem] leading-[1.14] sm:text-[1.8rem]">
-              Direccion legal para escenarios de alta exigencia.
+              Dirección legal para escenarios de alta exigencia.
             </h2>
             <p className="mt-6 max-w-md text-[0.95rem] leading-7 text-white/62">
-              Cada encargo combina analisis juridico, entendimiento del negocio y ejecucion coordinada con la alta administracion.
+              Cada encargo combina análisis jurídico, entendimiento del negocio y ejecución coordinada con la alta administración.
             </p>
 
             <div className="mt-10 flex items-end gap-5">
@@ -359,7 +359,7 @@ export function Home() {
             <SectionHeader
               eyebrow="Clientes"
               title="Relaciones construidas sobre confianza y resultados."
-              body="Asesoria continua para empresas, instituciones y equipos directivos en distintas etapas de crecimiento."
+              body="Asesoría continua para empresas, instituciones y equipos directivos en distintas etapas de crecimiento."
             />
             <CtaLink href="/clientes">Ver clientes</CtaLink>
           </div>

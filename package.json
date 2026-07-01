@@ -1,7 +1,7 @@
 {
   "name": "barba-2.0",
   "version": "1.0.0",
-  "description": "Sitio corporativo deluxe para Barba & Cia Abogados.",
+  "description": "Sitio corporativo deluxe para Barba & Cía. Abogados.",
   "private": true,
   "scripts": {
     "dev": "next dev",
